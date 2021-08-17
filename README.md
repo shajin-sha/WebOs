@@ -4,10 +4,12 @@
 <br/>
 <br/>
 
-
-  <img width="500" align="center" src="https://i.ibb.co/84JH03G/scrnli-8-17-2021-3-43-18-PM.png" alt="demo"/>
-    <img width="500" align="center" src="https://i.ibb.co/Wyhcsj2/scrnli-8-17-2021-3-49-32-PM.png" alt="demo"/>
- 
+<p align="center">
+  <img width="80%" align="center" src="https://i.ibb.co/84JH03G/scrnli-8-17-2021-3-43-18-PM.png" alt="demo"/>
+  <br/>
+  <br/>
+  <img width="80%" align="center" src="https://i.ibb.co/Wyhcsj2/scrnli-8-17-2021-3-49-32-PM.png" alt="demo"/>
+ </p>
 
 
 
@@ -18,7 +20,7 @@
  
  <h1>A quick overview</h1>
  
- <h3> Dynamic of things </h3>
+ <h3> Dynamic of things</h3>
  
   - Dynamic wallpapers
   - Dynamic apps
@@ -74,7 +76,7 @@ Feel free to check [issues page](https://github.com/shajin-sha/WebOs/issues) if 
 - Instagram: [@shajin_sha](https://instagram.com/shajin_sha)
 - Email: [@shajin.sha@gmail.com](shajin.sha10@gmail.com)
 
-## Show your support
+## ❤ Show your support
 
 Please ⭐️ this repository if this project helped you!
 
