@@ -1,0 +1,50 @@
+.Knowledge_graph{
+    position:absolute;
+    top:10%;
+    width: 30%;
+    text-align: left;
+    right: 5%;
+    background: rgb(236, 232, 232);
+    height: max-content;
+    padding-top: 2%;    
+    padding-bottom: 2%;    
+    border-radius: 5px;
+}
+
+
+.Knowledge_graphHeder{
+    border-bottom: 1px solid rgba(221, 218, 218, 0.884);
+}
+
+
+
+.Knowledge_graphtitle{
+    position: relative;
+    margin-left: 5%;
+    max-width: 90%;
+}
+
+.Knowledge_graph .type{
+    position: relative;
+}
+
+.Knowledge_graph >img{
+    position: relative;
+    width: 97%;
+    left:1.5%;
+
+}
+
+.Knowledge_graph  .type{
+    position: relative;
+    margin-left: 5%;
+    max-width: 90%;
+
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    max-width: 76%;
+    align-items: center;
+}

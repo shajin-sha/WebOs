@@ -1,0 +1,16 @@
+.NavTop{
+    position:fixed;
+    height: 3.3%;
+    width: 100%;
+    background:var(--navTopBg);
+    z-index: 12;
+    backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+

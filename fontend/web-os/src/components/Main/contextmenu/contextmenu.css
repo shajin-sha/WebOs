@@ -1,0 +1,57 @@
+.contextmenu{
+    position:fixed;
+    z-index: 10000000000 !important;
+    width: max-content;
+    max-height: max-content;
+    background: rgba(223, 219, 219, 0.404);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    animation-name: openCon;
+    animation-duration: 150ms;
+    min-width: 16%;
+    border-radius:5px;
+    min-height: max-content;
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 5px 13px  5px rgba(0, 0, 0, 0.075);
+    border: 0.1px solid rgba(41, 37, 37, 0.082);
+}
+
+@keyframes openCon{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.contextmenu > div{
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    text-align: left;
+    width: 95%;
+    border-radius: 5px;
+    height: 23px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.contextmenu > div img{
+    margin-left: 6%;
+    width: 1.2rem;
+}
+
+.contextmenu > div p{
+    font-weight:600;
+    font-size: 1.15rem;
+    margin-left: 5%;
+    color: #000;
+    cursor: default;
+}
+
+.contextmenu >div:hover{
+    background:#147EFB;
+}

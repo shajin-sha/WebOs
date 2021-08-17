@@ -1,0 +1,26 @@
+.Control{
+    min-width: 315px;
+    max-width: max-content;
+    height: 63%;
+    background: rgba(233, 233, 233, 0.212);
+    position:fixed;
+    right: 0.7%;
+    top:5%;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.089) 0px 10px 20px, rgba(0, 0, 0, 0.089) 0px 6px 6px;
+    overflow: hidden;
+    z-index: 100000;
+    animation: Control 160ms
+}
+
+@keyframes Control{
+    0%{
+        opacity: 0;
+        top:-10%;
+    }
+    100%{
+        opacity: 1;
+        top:5%;
+    }
+}

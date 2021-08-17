@@ -1,0 +1,9 @@
+.ActionMenu2{
+    position: relative;
+    width: 135px;
+    right: 5%;
+    height: 95%;
+    top:10px;
+    border-radius: 10px;
+    background: rgba(226, 226, 230, 0.466);
+}

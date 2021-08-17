@@ -1,0 +1,10 @@
+.itemLeft{
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffffd5;
+    margin-left: 1%;
+}.itemLeft > img{
+width: 1rem;
+}

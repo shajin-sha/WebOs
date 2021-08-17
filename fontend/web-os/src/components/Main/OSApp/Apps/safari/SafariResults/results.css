@@ -1,0 +1,30 @@
+.organic_results{
+    position: relative;
+    top:100px;
+    width: 100%;
+    text-align: left;
+    margin-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+.organic_results > h4{
+    text-decoration: none;
+    font-size:1.4rem;
+    cursor: pointer;
+    color: navy;
+
+}
+
+.organic_results > h4:hover{
+    text-decoration:underline;
+
+}
+
+.organic_resultsDescription{
+    font-weight: 100;
+    color: rgb(112, 111, 111);
+    max-width: 80%;
+}

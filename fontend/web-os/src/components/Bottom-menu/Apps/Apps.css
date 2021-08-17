@@ -1,0 +1,22 @@
+.Apps > div >img{
+    transition: all 243ms ease-in-out;
+    width: 3.55rem;
+    cursor: default;
+    user-select: none;
+}
+
+.Apps > div > img:active{
+    opacity: 80%;
+}
+
+.Apps > div > img:hover{
+    transform: scale(1.1);
+    width: 5.10rem;
+}
+
+.Apps{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

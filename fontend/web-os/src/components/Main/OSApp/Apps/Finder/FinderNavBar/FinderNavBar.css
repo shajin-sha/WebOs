@@ -1,0 +1,33 @@
+.finderNavbar{
+    box-shadow: 0px 0px 5px  1.3px rgba(90, 88, 88, 0.233);
+    position: relative;
+    top:-20%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    animation: NavAnim 290ms;
+}
+
+
+.oneFind{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    min-width: max-content;
+    margin-left: 8%;
+}
+
+.oneFind > img{
+    position: relative;
+    width: 2rem;
+    height: auto;
+}
+
+.oneFind > h3{
+    position: relative;
+    left: 10%;
+    font-size: 1.5rem;
+    color: rgb(65, 63, 63);
+}

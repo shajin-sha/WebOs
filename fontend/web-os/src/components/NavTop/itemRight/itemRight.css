@@ -1,0 +1,45 @@
+.itemRight{
+    position:absolute;
+    right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 17rem;
+}
+.itemRight img{
+    width: 1.20rem;
+    cursor: default;
+    padding: 2%;
+    border-radius: 10px;
+}
+.itemRight img:active{
+    opacity: 70%;
+}
+
+
+.itemRight img:hover{
+    background: rgba(54, 53, 54, 0.226);
+}
+
+.Date{
+    color: var(--colorWhite);
+    font-weight: 170;
+}
+
+.dateAndTime{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 0px;
+}
+
+
+.dateAndTime:active{
+    opacity: 80%;
+}
+
+.Time{
+    color:var(--colorWhite);
+    font-weight: 170;
+}

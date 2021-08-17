@@ -1,0 +1,44 @@
+.desktopOBJ{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.SafeDEkSTOPObj{
+    position:absolute;
+    top:0;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 99.5%;
+    height: 82%;
+    display: grid;
+    grid-template-columns:repeat(10,10%);
+    grid-template-rows: 10% 10%  10% 10% 10% 10%;
+    grid-auto-flow: column;
+    grid-row-gap: 6%;
+}
+.SafeDEkSTOPObj  .iconFo{
+    width: 3.5rem;
+
+}
+
+
+.SafeDEkSTOPObj .iconFo:active{
+    opacity: 85%;
+}
+
+
+.desktopOBJ .OBJ{
+    position: relative;
+    height: max-content;
+    width: fit-content;
+    left: 7%;
+}
+
+.desktopOBJ .OBJ > p{
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.911);
+    font-weight: 140;
+} 

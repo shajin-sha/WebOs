@@ -1,0 +1,162 @@
+.CreateUser{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+.CreateUserHeder{
+    font-size: 2.5rem;
+    font-weight: 100;
+    width: 90%;
+    text-align: left;
+    margin-left: 2%;
+    color: rgba(43, 41, 41, 0.829);
+}
+
+.LetS{
+    font-family: inherit;
+    color: #000000d7;
+    font-size: 8rem;
+    font-weight:900;
+}
+
+.CreateUserInputs{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 390px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CreateUserInputs > div{
+    position: relative;
+    padding: 1%;
+    width: 45%;
+    display: flex;
+    justify-content:center;
+}
+
+.CreateUserInputs > div >input{
+    transition: all 490ms ease-in-out;
+    padding: 1.5%;
+    width: 67%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(20, 17, 17, 0.815);
+    color: #ffff;
+    font-weight: 570;
+}
+
+.CreateUserInputs > div > input:focus{
+    width: 75%;
+    background: rgba(26, 25, 25, 0.863);
+    box-shadow: 5px 5px 20px  10px #ec595950;
+}
+
+.CreateUserInputs > div >input:invalid{
+    /* background: #ec5959d3; */
+    background: #ec5959b6;
+    
+    
+}
+
+.CreateUserInputs > div >input:invalid::placeholder{
+    color: rgba(255, 255, 255, 0.795);
+}
+
+
+.CreateUserInputs > div > input:focus:valid{
+    background: #437e28d3;
+    box-shadow: 5px 5px 20px  10px #437e2834;
+}
+
+
+
+.CreateUserInputs > div > img{
+    position: relative;
+    background: rgba(32, 32, 32, 0.425);
+    padding: 1%;
+    border-radius: 20%;
+    right: 1%;
+    box-shadow: 5px 5px 20px  10px #302e2e23;
+}
+
+
+.rectangle1{
+    position:absolute;
+    width: 25%;
+    height: 45%;
+    background:rgba(248, 188, 188, 0);
+    right: -9%;
+    bottom: 10%;
+    border: 14px solid rgba(32, 32, 32, 0.301);
+    transform: rotate(20deg);
+    border-radius: 30px;
+    box-shadow: 5px 5px 23px  5px rgba(0, 0, 0, 0.185);
+    
+}
+.rectangle2{
+    position:absolute;
+    width: 7%;
+    height: 25%;
+    background:transparent;
+    left:-5%;
+    bottom: 10%;
+    border: 7px solid #ec5959b7;
+    transform: rotate(20deg);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px  10px #ec595950;
+}
+
+
+.rectangle3{
+    position:absolute;
+    width: 20%;
+    height: 30%;
+    background:transparent;
+    right:-15%;
+    bottom: 65%;
+    border: 7px solid #437e28a1;
+    transform: rotate(20deg);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px  10px #437e2834;
+}
+
+
+.grabAccountBtn{
+    position: absolute;
+    border: none;
+    padding: 0.7%;
+    font-size: 1.6rem;
+    font-weight: 510;
+    background: #686872f1;
+    width: 20%;
+    border-radius: 9px;
+    color: #ffff;
+    right:3%;
+    bottom:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.grabAccountBtn:active{
+    opacity: 87%;
+}
+
+.grabAccountBtn > img{
+    position: relative;
+    right: 5%;
+    width: 2rem;
+    
+}
+
+.grabAccountBtn:hover{
+    background: #18181ae0;
+}

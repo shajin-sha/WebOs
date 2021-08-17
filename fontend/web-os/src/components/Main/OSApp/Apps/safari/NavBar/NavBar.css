@@ -1,0 +1,60 @@
+.safariNavBar{
+    position: relative;
+    top:0px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    animation: NavAnim 290ms;
+}
+
+
+
+
+
+
+.safariNavBarInputSCR{
+    position: relative;
+    height: 20px;
+    padding: 1.2%;
+    outline: none;
+    width: 100%;
+    background: rgb(247, 243, 239);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.safariNavBarAction{
+    position: relative;
+    left:8%;
+    width: 10%;
+}
+
+
+
+.safariNavBarAction > button{
+    border: none;
+    margin: 0.9%;
+    background: transparent;
+}
+
+
+
+.safariNavBarAction1{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.safariNavBarAction1  > button{
+    margin: 1%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.safariNavBarAction2 >button{
+    border: none;
+    background: transparent;
+}

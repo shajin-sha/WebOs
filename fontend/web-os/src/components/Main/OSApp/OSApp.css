@@ -1,0 +1,78 @@
+.OSApp{
+    transition: all 100ms ease-in-out;
+    position:absolute;
+    width: 75%;
+    height: 75%;
+    background:var(--AppBg);
+    left:0;
+    right: 0;
+    top:0;
+    bottom:10%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1.4px 5px rgba(0, 0, 0, 0.575);
+    -webkit-box-shadow: 0px 0.4px 10px 1px rgba(0, 0, 0, 0.575);
+    -moz-box-shadow: 0px 0px 1.4px 5px rgba(0, 0, 0, 0.575);
+    z-index: 1000;
+}
+
+
+.OsAppFull{
+    transition: all 100ms ease-in-out;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background:var(--AppBg);
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 1.4px 5px rgba(0, 0, 0, 0.575);
+    -webkit-box-shadow: 0px 0.4px 10px 1px rgba(0, 0, 0, 0.575);
+    -moz-box-shadow: 0px 0px 1.4px 5px rgba(0, 0, 0, 0.575);
+    z-index: 10000;
+}
+
+
+
+.AppAction{
+    position: relative;
+    width: 10%;
+    height: 25px;
+    top:2%;
+    left:2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 20000000;
+}
+
+.AppAction > div{
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+}
+
+.green{
+    background:#53D769;
+}
+
+.yellow{
+  background:#FECB2E;   
+}
+
+.red{
+ background:#FC3158;   
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.red:hover::after{
+    content: "-";
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    
+}

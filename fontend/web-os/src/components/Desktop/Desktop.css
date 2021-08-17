@@ -1,0 +1,15 @@
+.Desktop{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left:0%;
+    top:0%;
+    overflow: hidden !important;
+}
+.wallpaper1{
+    position:absolute;
+    left:0%;
+    top:0%;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}

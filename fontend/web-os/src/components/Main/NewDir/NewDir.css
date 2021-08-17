@@ -1,0 +1,19 @@
+.NewDirContent{
+    position:absolute;
+    left: 0;
+    right: 0;
+    top:-80%;
+    margin: auto;
+    bottom: 0;
+    background:red;
+    width: 40%;
+    height: 20%;
+    z-index: 5000000;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:6px;
+    background-color:#fff;
+    
+    
+}

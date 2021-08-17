@@ -1,0 +1,157 @@
+.lock{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left:0%;
+    top:0%;
+    background: rgba(37, 36, 36, 0.815);
+    z-index: 100000;
+    background-image: url(../../components/Desktop/src/macosmontereywallpaper-1.jpg);
+    /* background-image: url(../../components/Desktop/src/big-sur.jpg); */
+    /* background-image: url(../../components/Desktop/src/big-sur2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.lock .UserIcon{
+    position: relative;
+    top:20%;
+    width: 10rem;
+    height: auto;
+}
+
+
+.lock .lockUserINputs{
+    position: relative;
+    margin: auto;
+    left:0;
+    right: 0;
+    width: 55%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.lock .lockUserINputs >input{
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 1.2%;
+    width: 40%;
+    border-radius: 6px;
+    font-size: 1rem;
+    top:25%;
+    font-weight: 600;
+}
+
+.lock button{
+    position: relative;
+    height: 120%;
+    width: 25%;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    left:2%;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.534);
+    outline: none;
+
+}
+
+.Password >input{
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 1.9%;
+    width: 70%;
+    border-radius: 6px;
+    height: 70%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.932);color: #000;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.534);
+}
+
+.Password >button:hover{
+    background: rgba(255, 255, 255, 0.726);
+}
+
+
+.Password >input::placeholder{
+    color: rgba(0, 0, 0, 0.932);
+}
+
+.Password{
+    position: relative;
+    border: none;
+    outline: none;
+    width: 54%;
+    top:20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.lockTimeAndDate{
+    position: absolute;
+    color: #ffff;
+    width: 100%;
+    text-align: left;
+    margin-left: 2%;
+    
+}
+
+
+.lockTimeAndDate>h1{
+    font-size: 4rem;
+
+}
+
+.lockTimeAndDate > p{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 1%;
+    font-size: 1.3rem;
+    top:-40px;
+}
+
+
+.UserNAMELock{
+    position:absolute;
+    margin-top: 6%;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.LockIcon{
+    position:absolute;
+    width: 2rem;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+
+.ErrLock{
+    position:absolute;
+    font-size: 1.2rem;
+    top:75%;
+    color: #fff;
+    font-weight: 100;
+}

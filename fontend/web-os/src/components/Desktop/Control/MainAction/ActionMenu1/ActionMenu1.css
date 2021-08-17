@@ -1,0 +1,65 @@
+.ActionMenu1{
+    position: relative;
+    width: 135px;
+    left:5%;
+    background: rgba(226, 226, 230, 0.466);
+    height: 95%;
+    top:10px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    cursor:default;
+
+}
+
+
+
+
+.ActionMenu1 > div {
+    position: relative;
+    top:-2px;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35%;
+    display:flex;
+}
+
+.ActionMenu1 > div > div{
+    top:-5px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    margin-top: 0.9%;
+    
+}
+
+.ActionMenu1 > div:active{
+    background: rgba(255, 255, 255, 0.493);
+}
+
+
+
+.ActionMenu1 > div > img{
+    background: #038edf;
+    padding: 3%;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+
+
+.ActionMenu1 > div > div>p{
+    height: 100%;
+}
+
+.ActionMenu1 > div > div>h4{
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 730;
+}
+

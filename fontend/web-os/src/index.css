@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: 'Myriad Apple Text';
+}
+
+
+@font-face {
+  font-family: 'Myriad Apple Text';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Apple Text'), url('./fonts/MYRIADAT.woff') format('woff');
+  }
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+:root {
+  /* NavTop */
+  --navTopBg:#e0dfdf33;
+  --navTopBgDark:#1b1b1b3a;
+  --navTopWhite:#fff;
+  /* NavTop */
+  --colorWhite:#ffff;
+  --colorDark:#000000;
+
+
+
+
+  /* dock */
+
+  --bottomMenuBg:#d4d0d01a;
+  --bottomMenuBgDark:#e7e4e41a;
+
+
+
+  /* dock */
+
+
+  /* app */
+  --AppBg:#ffff;
+  /*  */
+
+}
+
+
+
+/* body::-webkit-scrollbar-track{
+  background: red;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: red;
+}
+ */
+
+
+
+ /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: rgb(95, 81, 81);
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #807d8173;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+  *::-webkit-scrollbar-thumb:active{
+    background-color: #807d81;
+  }
+
+
+
+
+
+
+  
+@keyframes NavAnim{
+  0%{
+      transform: scale(0);
+      opacity: 0;
+  }
+
+  100%{
+      transform: scale(1);
+      opacity: 1;
+  }
+}

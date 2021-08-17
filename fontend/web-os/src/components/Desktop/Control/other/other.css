@@ -1,0 +1,43 @@
+.other{
+    position: relative;
+    top:10px;
+    width: 90%;
+    margin: auto;
+}
+.other > div{
+    background: rgba(226, 226, 230, 0.466);
+   border-radius: 10px;
+   text-align: left;
+   padding-top: 0.6%;
+   padding-bottom: 0.6%;
+   margin-top: 5%;
+}
+
+.other > div > input{
+    position: relative;
+    width: 80%;
+    left:5%;
+    outline: none;
+    top:-10px;
+    appearance: none;
+    border-radius: 50px;
+}
+
+
+.other > div > input::-webkit-slider-runnable-track{
+    background: transparent;
+    border-radius: 50px;
+    height: 21px;
+}
+.other > div > input::-webkit-slider-thumb {
+    background: #3d3c3c;;
+    appearance: none;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+}
+
+
+.other > div >h4{
+    margin-left: 3%;
+}

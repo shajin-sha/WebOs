@@ -1,0 +1,49 @@
+.AppsName{
+    top:-90%;
+    background: rgba(226, 226, 226, 0.39);
+    max-width: max-content;
+    min-width: 13%;
+    max-height: 24px;
+    height: min-content;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+    animation-duration: 130ms;
+    animation-name: AppNameAnim;
+}
+
+@keyframes AppNameAnim{
+    0%{
+        transform: scale(0.6);
+        opacity: 0;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.AppsName > p{
+    margin: none;
+    padding: none;
+    border: none;
+    color:rgba(34, 33, 33, 0.945);
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.AppsName:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    backdrop-filter: blur(10px);
+    border-top: 15px solid rgba(226, 226, 226, 0.39);;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: none;
+  }

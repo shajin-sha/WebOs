@@ -1,0 +1,17 @@
+.Objtwo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:25%;
+}
+
+.iconObjTwo{
+    width: 1.5rem;
+    padding: 2%;
+    border-radius: 7px;
+}
+
+.iconObjTwo:hover{
+    background: rgba(223, 221, 221, 0.712);
+
+}
