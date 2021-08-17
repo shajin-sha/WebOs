@@ -4,10 +4,14 @@
 <br/>
 <br/>
 
-<!-- <p align="center">
-  <img width="700" align="center" src="https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-11e9-9958-f9004c2f97e1.gif" alt="demo"/>
-</p>
- -->
+
+  <img width="500" align="center" src="https://i.ibb.co/84JH03G/scrnli-8-17-2021-3-43-18-PM.png" alt="demo"/>
+    <img width="500" align="center" src="https://i.ibb.co/Wyhcsj2/scrnli-8-17-2021-3-49-32-PM.png" alt="demo"/>
+ 
+
+
+
+
  
  
  
