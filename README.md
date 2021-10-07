@@ -1,9 +1,7 @@
-<p align="center">
-<img width="80%" src="https://svgur.com/i/_Eo.svg"/>
-</p>
 
 
-<!-- <p align="center">
+
+ <p align="center">
   <img width="80%" align="center" src="https://i.ibb.co/84JH03G/scrnli-8-17-2021-3-43-18-PM.png" alt="demo"/>
   <br/>
   <br/>
@@ -14,7 +12,7 @@
 
 
  
-  -->
+
   
   
  
